@@ -28,28 +28,27 @@
           <input type="hidden" name="_next" value="https://oemautosoul.github.io/Formsubmit/success.html" >
           
           <!-- Body -->
-          <div class="col-md-5">
-            <label for="firstName" class="form-label">First Name</label>
-            <input type="text" class="form-control" name="First&nbsp;Name" id="firstName" required>
+          <div class="col-md-2">
+            <label for="Name" class="form-label">Name</label>
+            <input type="text" class="form-control" name="Name" id="Name" placeholder="Last name not required" required>
           </div>
-          <div class="col-md-5">
-            <label for="lastName" class="form-label">Last Name</label>
-            <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" placeholder="Not required">
-          </div>
-          <div class="col-md-10">
+          <div class="col-md-2">
             <label for="emailInfo" class="form-label">E-mail</label>
-            <input type="email" class="form-control" name="email" id="emailInfo" required>
+            <input type="email" class="form-control" name="Email" id="emailInfo" placeholder="username@domain.com" required>
           </div>
-          <div class="col-md-10">
+          <div class="col-md-2">
+            <label for="zipcode" class="form-label">Zip Code</label>
+            <input type="text" class="form-control" name="Zip&nbsp;Code" id="zipcode" required>
+          </div>
+          <div class="col-md-6">
             <label for="vehicleinfo" class="form-label">Vehicle Info</label>
-            <input type="text" class="form-control" name="vehicle&nbsp;info" id="vehicleinfo" placeholder="Year, Make, Model, Trim; VIN" required>
+            <input type="text" class="form-control" name="Vehicle&nbsp;Info" id="vehicleinfo" placeholder="Year, Make, Model, Trim; VIN" required>
           </div>
           <div class="col-md-10">
-            <label for="comments" class="form-label">Questions / Requests</label>
-            <textarea class="form-control" id="comments" name="Questions&nbsp;&&nbsp;Requests"" rows="3" required></textarea>
+            <label for="comment" class="form-label">Comment</label>
+            <textarea class="form-control" id="questions" name="Questions&nbsp;&&nbsp;Requests" rows="3" placeholder="Part description, part number, or any other questions/requests" required></textarea>
           </div>
           <div class="col-md-12">
-
           <!-- Submit Button -->
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
